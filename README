@@ -12,7 +12,7 @@ First developer: Vagner H. L. Bessa (vagner.fisica@gmail.com)
 - This is a free C++ library. So, feel free to add modifications.
 
 - The full original library can be found at:
-  https://github.com/vagner-fisica/etime.git
+  https://github.com/bessavagner/Timer
  
 - Timer class has only the default constructor.
 
@@ -20,7 +20,7 @@ First developer: Vagner H. L. Bessa (vagner.fisica@gmail.com)
   your source code. Library included at the Timer.h file: ctime., string, sstream, cstdio, iomanip, iostream and cmath.
  
 - The source code for the Timer library can be found at:
-	https://github.com/vagner-fisica/etime.git
+	https://github.com/bessavagner/Timer
   together with a main.cpp file, which contains a sample usage.
 
 
