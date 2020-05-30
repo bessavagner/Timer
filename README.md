@@ -26,34 +26,33 @@ First developer: Vagner H. L. Bessa (vagner.fisica@gmail.com)
 
 - The main purpose of this library is to compute the elapsed time between computations. A simple example use:
 
-	```
-	
-	int main(){
-		etime myComputTime;
-		
-		myComputeTime.start_timer();
-		
-		DoSomeComputation();
-		
-		myComputTime.end_timer("My computation lasted: ");
-	}
-	```
+~~~C++
+int main(){
+	etime myComputTime;
+
+	myComputeTime.start_timer();
+
+	DoSomeComputation();
+
+	myComputTime.end_timer("My computation lasted: ");
+}
+~~~
 	
   The output would be seomething like:
   	My computation lasted: 01:23:03
   If you want the result simply in seconds, call the member function end_timer(). Example:
  
-	...
-	
-	int main(){
-		etime myComputTime;
-		
-		myComputeTime.start_timer();
-		
-		DoSomeComputation();
-		
-		cout << "Elapsed time: " << myComputTime.end_timer() << " seconds.\n";
-	}  
+~~~C++
+int main(){
+	etime myComputTime;
+
+	myComputeTime.start_timer();
+
+	DoSomeComputation();
+
+	cout << "Elapsed time: " << myComputTime.end_timer() << " seconds.\n";
+}
+~~~
 
 ## DEVELOPER'S INFORMATION:
 
