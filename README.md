@@ -9,8 +9,6 @@ First developer: Vagner H. L. Bessa (vagner.fisica@gmail.com)
 
 ## GENERAL USAGE NOTES
 
-- This is a free C++ library. So, feel free to add modifications.
-
 - The full original library can be found at:
   https://github.com/vagner-fisica/etime.git
  
