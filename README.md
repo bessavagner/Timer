@@ -41,3 +41,4 @@ int main(){
 	cout << "Elapsed time: " << myComputTime.end_timer() << " seconds.\n";
 }
 ~~~
+See an example in main.cpp (frequency of primes). Run `make`to build the program.
