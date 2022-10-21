@@ -1,30 +1,18 @@
-# Timer(C) C++ library (class) - Version 2.0 06/06/2019
+# Timer C++
 
-Originally as [this repo](https://github.com/vagner-fisica/etime.git)
-
-The source code (Timer) library, is released under
-the MIT License.
-
-First developer: Vagner H. L. Bessa (vagner.fisica@gmail.com)
+Wanna know how long you loop will take? use Timer.
 
 ## GENERAL USAGE NOTES
-
-- The full original library can be found at:
-  https://github.com/vagner-fisica/etime.git
  
 - Timer class has only the default constructor.
 
-- No need to install. Simply add #include "Timer.hpp" at the header of
-  your source code. Library included at the Timer.h file: ctime., string, sstream, cstdio, iomanip, iostream and cmath.
- 
-- The source code for the Timer library can be found at:
-	https://github.com/vagner-fisica/etime.git
-  together with a main.cpp file, which contains a sample usage.
-
+- Download and dd #include "Timer.hpp" at the header of
+  your source code.
+- Included libraries: ctime., string, sstream, cstdio, iomanip, iostream and cmath.
 
 ## BASIC USER'S GUIED
 
-- The main purpose of this library is to compute the elapsed time between computations. A simple example use:
+### Compute the elapsed time between computations
 
 ~~~C++
 int main(){
@@ -37,10 +25,10 @@ int main(){
 	myComputTime.end_timer("My computation lasted: ");
 }
 ~~~
-	
-  The output would be seomething like:
-  	My computation lasted: 01:23:03
-  If you want the result simply in seconds, call the member function end_timer(). Example:
+```
+My computation lasted: 01:23:03
+```
+For print in seconds use end_timer():
  
 ~~~C++
 int main(){
@@ -53,14 +41,3 @@ int main(){
 	cout << "Elapsed time: " << myComputTime.end_timer() << " seconds.\n";
 }
 ~~~
-
-## DEVELOPER'S INFORMATION:
-
-- Affiliation: Instituto Federal de Ciência, Educação e Tecnologia do Ceará (IFCE) - Brazil
-			   *Campus* Crateús.
-
-- Contact:	   vagner.bessa@ifce.edu.br
-               bessavagner@gmail.com
-			   instagram.com/vagner.bessa
-			   github: bessavagner
-
